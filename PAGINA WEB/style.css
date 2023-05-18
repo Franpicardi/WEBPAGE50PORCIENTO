@@ -1,0 +1,63 @@
+body {
+    background: beige;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #37517E;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #37757E;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: green;
+}
+
+footer {
+    text-align: right;
+}
+
+section {
+    background-color: rebeccapurple;
+    margin: auto;
+    color: white;
+}
+
+p {
+    color: hsl(106, 74%, 42%);
+    text-align: right;
+    height: 120px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
